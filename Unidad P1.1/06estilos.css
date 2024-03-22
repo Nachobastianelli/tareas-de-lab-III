@@ -1,0 +1,136 @@
+*{
+    display: flex;
+}
+
+.Nivel_1{
+    justify-content:end;
+}
+
+.Nivel_2{
+    justify-content:center;
+}
+
+.Nivel_3{
+    justify-content: space-around;
+}
+
+.Nivel_4{
+    justify-content: space-between;
+}
+
+.Nivel_5{
+    align-items: end;
+}
+
+.Nivel_6{
+    justify-content: center;
+    align-items: center;
+}
+
+.Nivel_7{
+    align-items: flex-end;
+justify-content: space-around;
+}
+
+.Nivel_8{
+    flex-direction: row-reverse;
+}
+
+.Nivel_9{
+    flex-direction: column;
+}
+
+.Nivel_10{
+    flex-direction: row-reverse;
+justify-content: flex-end;
+}
+
+.Nivel_11{
+    flex-direction: column;
+justify-content: flex-end;
+}
+
+.Nivel_12{
+    flex-direction: column-reverse;
+justify-content: space-between;
+}
+
+.Nivel_13{
+    flex-direction: row-reverse;
+align-items: flex-end;
+justify-content: center;
+}
+
+.Nivel_14{
+    .yellow {
+        order: 1;
+        }
+}
+
+.Nivel_15{
+    .red {
+        order: -3;
+        }
+}
+
+.Nivel_16{
+    .yellow {
+        align-self: flex-end;
+        }
+}
+
+.Nivel_17{
+    .yellow {
+        order: 1;
+        align-self: flex-end;
+        }
+}
+
+.Nivel_18{
+    #pond {
+        display: flex;
+      flex-wrap: wrap;
+      }
+}
+
+.Nivel_19{
+    flex-wrap: wrap;
+flex-direction: column;
+}
+
+.Nivel_20{
+    flex-flow: column wrap;
+}
+
+.Nivel_21{
+    align-content: flex-start;
+}
+
+.Nivel_22{
+    align-content: flex-end;
+}
+
+.Nivel_23{
+    flex-direction: column-reverse;
+align-content: center;
+}
+
+.Nivel_24{
+    flex-flow: column-reverse wrap-reverse;
+justify-content: center;
+align-content: space-between;
+}
+
+ 
+/*
+Trae a las ranas a su casa una vez más usando las propiedades CSS que aprendiste:
+
+justify-content
+align-items
+flex-direction
+order
+align-self
+flex-wrap
+flex-flow
+align-content
+*/
